@@ -16,6 +16,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     margin-top: 0;
     margin-bottom: 20px;
+    line-height: 1;
 }
 h1{
     font-size: 50px;
@@ -145,9 +146,11 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     text-align: center;
     max-width: 760px;
     width: 100%;
+    margin: 0 auto;
 }
 .bnr-title{
     font-weight: 800;
+    line-height: 1.3;
 }
 .today-donate-btn:hover {
     background: white;
@@ -156,7 +159,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 }
 .bnnr-cntlr p {
     margin-top: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .sec-p{
     padding: 60px 0;
@@ -280,12 +283,15 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     height: 60px;
     margin-bottom: 15px;
 }
+.get-my-updates{
+    padding-bottom: 130px;
+}
 .our-doante-item{
     padding: 60px 22px 40px;
 }
 .get-my-updates-box {
     /* max-width: 810px; */
-    width: 54%;
+    width: 50%;
     margin: 0 auto;
     background-color: #edda1a;
     padding: 70px 160px;
@@ -295,8 +301,11 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     position: relative;
 }
 .get-my-updates-form input[type="email"] {
-    width: 100%;
-    padding: 20px 0px 20px 0;
+    width: 96.5%;
+    padding: 16px 0px 17px 18px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 .get-my-updates-form input[type="email"]:focus{
     outline: 0;
@@ -307,4 +316,73 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     top: 0;
     bottom: 0;
     cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border: initial;
+}
+.submit-btn:hover{
+    background-color: #0B0D17;
+    color: #edda1a;
+}
+.footer{
+    background-color: #0B0D17;
+    padding: 30px 0;
+}
+.ftr-title{
+    font-family: 'Lobster', cursive;
+    color: #00aeff;
+    margin-bottom: 10px;
+}
+.ftr-socials-title{
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding-right: 7px;
+}
+.ftr-social ul{
+    display: flex;
+    justify-content: center;
+}
+.ftr-social ul li {
+    padding: 0 8px;
+}
+.ftr-social ul li:first-child{
+    padding-left: 0;
+}
+.ftr-social ul li:last-child{
+    padding-right: 0;
+}
+.ftr-social ul li a {
+    color: #fff;
+    font-size: 18px;
+    background: #00aeff;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.ftr-social ul li a i{
+    transition: all .5s;
+    -ms-transition: all .5s;
+    -webkit-transition: all .5s;
+    display: inline-block;
+}
+.ftr-social ul li a:hover i{
+    transform: rotate(360deg)
+}
+.ftr-cntlr{
+    text-align: center;
+    color: #fff;
+}
+.ftr-social {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
