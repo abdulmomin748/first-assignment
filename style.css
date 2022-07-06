@@ -267,6 +267,15 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 }
 
 
+.our-donate-plan{
+    padding-top: 15px;
+}
+.our-doante-item-col:first-child{
+    margin-left: 0;
+}
+.our-doante-item-col:last-child{
+    margin-right: 0;
+}
 .our-doante-item-col{
     width: 33.333%;
     margin: 0 12px 20px;
@@ -404,7 +413,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 }
 .assit-our-other-project{
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 .assist-other-pro-itm-img{
     height: 285px;
@@ -452,12 +461,13 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 .join-us-desc {
     background-color: rgb(0, 174, 255);
     color: rgb(255, 255, 255);
-    width: 45%;
+    max-width: 650px;
     margin: -342px auto 0px;
-    padding: 75px 102px;
+    padding: 75px 90px;
     text-align: center;
     position: relative;
     z-index: 6;
+    box-sizing: border-box;
 }
 .join-us-desc:after {
     position: absolute;
