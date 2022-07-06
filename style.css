@@ -54,6 +54,7 @@ a,button{
     text-decoration: none;
 }
 .today-donate-btn {
+    cursor: pointer;
     background: #00aeff;
     border-radius: 5px;
     color: #fff;
@@ -153,4 +154,55 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 .bnnr-cntlr p {
     margin-top: 25px;
     margin-bottom: 35px;
+}
+.donate-plan-sec{
+    padding: 110px 0;
+}
+.donate-plan-sec-cntlr {
+    text-align: center;
+    max-width: 731px;
+    width: 100%;
+    margin: 0 auto;
+}
+.dps-title{
+    margin-bottom: 15px;
+}
+.donate-box button {
+    text-align: center;
+    padding: 25px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    color: #707070;
+    width: 120px;
+}
+.donate-box .donate-amount{
+    border: 2px solid #00aeff;
+    background: #106d7c;
+    color: #00aeff;
+}
+.donate-box button:not(:last-child) {
+    margin-right: 18px;
+}
+input#ohter-amount {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+.other-amount-cntlr {
+    padding-top: 50px;
+}
+.other-amount-cntlr button{
+    margin-top: 32px;
+    border: none;
+    font-weight: 600;
+    min-width: 170px;
+    padding: 18px 0px;
+}
+.other-amount-cntlr button:hover {
+    background: #55656c;
+    color: #ffffff;
 }
