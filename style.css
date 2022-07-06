@@ -316,7 +316,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 }
 .get-my-updates-form input[type="email"] {
     width: 96%;
-    padding: 16px 0px 17px 18px;
+    padding: 18px 0px 16px 18px;
     color: black;
     border: 2px solid transparent;
     border-radius: 5px;
