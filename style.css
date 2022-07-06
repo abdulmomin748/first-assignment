@@ -45,7 +45,7 @@ ul{
 img{
     width: 100%;
 }
-a,button{
+a,button,input{
     color: #FF5959;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -187,11 +187,48 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 .donate-box button:not(:last-child) {
     margin-right: 18px;
 }
-input#ohter-amount {
+.other-amount-cntlr input[type="number"]{
     width: 100%;
     border: none;
     border-bottom: 1px solid gainsboro;
+    text-align: center;
+    padding: 13px 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5a4a4a;
 }
+.other-amount-cntlr input[type="number"]:focus{
+    outline: 0;
+    border-color: #00aeff;
+}
+.other-amount-cntlr input[type="number"]:focus::-webkit-input-placeholder {
+    opacity: 0;
+    color: #707070;
+}
+.other-amount-cntlr input[type="number"]:focus::-moz-placeholder {
+   opacity: 0;
+   color: #707070;
+}
+.other-amount-cntlr input[type="number"]:focus:-ms-input-placeholder {
+    opacity: 0;
+    color: #707070;
+}
+.other-amount-cntlr input[type="number"]:focus:-moz-placeholder {
+   opacity: 0;
+   color: #707070;
+}
+ .other-amount-cntlr input[type="number"]::-webkit-input-placeholder {
+    color: #707070;
+  }
+/* .other-amount-cntlr input[type="number"]::input-placeholder{
+    color: #B3B3B3;
+    border-color: #00aeff;
+    opacity: 0;
+}
+.other-amount-cntlr input[type="number"]:-ms-input-placeholder {
+    
+    opacity: 0;
+} */
 .other-amount-cntlr {
     padding-top: 50px;
 }
