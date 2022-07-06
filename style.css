@@ -126,9 +126,10 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     align-items: center;
 }
 .hdr-lgo a {
-    max-width: 140px;
+    max-width: 180px;
     display: inline-block;
     width: 100%;
+    margin-top: 5px;
 }
 .banner-sec {
     background-repeat: no-repeat;
@@ -164,13 +165,13 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 .sec-p{
     padding: 60px 0;
 }
-.donate-plan-sec-cntlr {
+.donate-toaday-sec-cntlr {
     text-align: center;
     max-width: 695px;
     width: 100%;
     margin: 0 auto;
 }
-.dps-title{
+.dt-title{
     margin-bottom: 15px;
 }
 .donate-box button {
@@ -255,7 +256,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     margin-bottom: 45px;
 }
 .sec-title-cntlr h2{
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .our-doante-items{
