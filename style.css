@@ -436,7 +436,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     width: 33.333%;
 }
 .assist-other-project-item{
-    padding: 0 10px;
+    padding: 0 10px 10px;
 }
 .aopi-title {
     background: linear-gradient(18deg, #129ad9, #edda1a,#43b7dd ,transparent);
