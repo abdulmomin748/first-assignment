@@ -80,10 +80,13 @@ a,button,input{
 .d-f{
     display: flex;
 }
-
 header.header{
     background-color: #129ad9;
     padding: 15px 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9;
 }
 .hdr-menu{
     padding-left: 20px;
@@ -141,6 +144,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     height: 70vh;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 .bnnr-cntlr {
     color: #fff;
@@ -163,7 +167,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     margin-bottom: 30px;
 }
 .sec-p{
-    padding: 60px 0;
+    padding: 70px 0;
 }
 .donate-toaday-sec-cntlr {
     text-align: center;
@@ -269,7 +273,14 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 .our-doante-item-col h5{
     margin-bottom: 12px;
 }
-.odi-col-1 .our-doante-item{background-color: #27db95;}
+.our-doante-item{
+    background-color: #27db95;
+    margin-top: 20px;
+    transition: .5s;    
+}
+.our-doante-item-col:hover .our-doante-item{
+    margin-top: 0;
+}
 .odi-col-2 .our-doante-item{
     background-color: #43b7dd;
 }
@@ -386,4 +397,39 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.inline-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.assist-other-pro-itm-img{
+    height: 300px;
+    -webkit-transition: 0.9s ease-out;
+    -moz-transition: 0.9s ease-out;
+    -o-transition: 0.9s ease-out;
+    transition: 0.9s ease-out;
+}
+.assist-other-pro-itm-img-cntlr{
+    overflow: hidden;
+}
+.assist-other-project-item:hover .assist-other-pro-itm-img{
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
+.assist-other-project-items{
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+.assist-other-project-col{
+    width: 33.333%;
+}
+.assist-other-project-item{
+    padding: 0 10px;
+}
+.aopi-title {
+    background: linear-gradient(18deg, #129ad9, #edda1a,#43b7dd ,transparent);
+    padding: 20px 20px;
 }
