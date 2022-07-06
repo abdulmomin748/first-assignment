@@ -256,7 +256,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 }
 
 .sec-title-cntlr{
-    max-width: 691px;
+    max-width: 702px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -266,29 +266,23 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     margin-bottom: 20px;
 }
 
-.our-doante-items{
-    margin: 0 -12px;
-}
+
 .our-doante-item-col{
     width: 33.333%;
-    padding: 0 12px 30px;
+    margin: 0 12px 20px;
+    padding: 60px 20px 40px;
+    background-color: #27db95;
+    transition: .5s;
 }
 .our-doante-item-col h5{
     margin-bottom: 12px;
 }
-.our-doante-item{
-    background-color: #27db95;
-    margin-top: 10px;
-    transition: .5s;    
-    padding: 60px 22px 40px;
+.our-doante-item-col:hover{
 }
-.our-doante-item-col:hover .our-doante-item{
-    margin-top: 0;
-}
-.odi-col-2 .our-doante-item{
+.odi-col-2{
     background-color: #43b7dd;
 }
-.odi-col-3 .our-doante-item{
+.odi-col-3{
     background-color: #edda1a;
 }
 .our-doante-item-col i{
@@ -297,7 +291,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     max-width: 55px;
     width: 100%;
     height: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .get-my-updates{
     padding-bottom: 130px;
@@ -314,10 +308,10 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     position: relative;
 }
 .get-my-updates-form input[type="email"] {
-    width: 96.5%;
+    width: 96%;
     padding: 16px 0px 17px 18px;
     color: black;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 5px;
     font-size: 18px;
 }
@@ -408,8 +402,12 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
     background-position: center;
     background-size: cover;
 }
+.assit-our-other-project{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
 .assist-other-pro-itm-img{
-    height: 300px;
+    height: 285px;
     -webkit-transition: 0.9s ease-out;
     -moz-transition: 0.9s ease-out;
     -o-transition: 0.9s ease-out;
@@ -436,6 +434,7 @@ nav.main-nav ul li a:hover:after, nav.main-nav ul li.active a:after {
 .aopi-title {
     background: linear-gradient(18deg, #129ad9, #edda1a,#43b7dd ,transparent);
     padding: 20px 20px;
+    margin-bottom: 0;
 }
 .join-us {
     padding-top: 100px;
